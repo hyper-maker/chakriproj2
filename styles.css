@@ -1,0 +1,139 @@
+body{
+font-family: "Mont";
+}
+#title{
+    background-color: #ff4c68;
+    
+}
+
+.fluid-container
+
+{
+    padding: 3% 15% 12%;
+}
+
+
+.navbar-brand
+{
+    
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:cursive;
+}
+
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+.title-img
+{
+    width:60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position:relative;
+   
+}
+
+.feature-box{
+
+    text-align: center;
+    padding:5%;
+}
+
+.icon
+{
+color:#ef8172;
+margin-bottom: 1rem;
+
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.dog-img{
+    width: 15%;
+    border-radius: 100%;
+    margin:20px;
+    margin-right: 8rem;
+    
+    
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    padding:7% 15%;
+    color: #fff;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo{
+    width:20%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        
+    }
+}
+
+
+#cta{
+    padding:7% 15%;
+    background-color: #ff4c68;
+    text-align:center;
+}
+
+#footer
+{
+    padding:7% 15%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.abc{
+    margin:20px 10px;
+}
+
+
+
+
+
